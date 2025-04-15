@@ -2,66 +2,50 @@
 
 # Ruth2 Mesh Avatar Project
 
-Ruth2 is a low-poly mesh body specifically designed for OpenSimulator.
-It is built to use standard Second Life(TM) UV maps using scratch-built open
-source mesh bodies by Shin Ingen with other open source contributions from the
-OpenSimulator Community.
+Ruth2 ist ein Low-Poly-Mesh-Körper, der speziell für OpenSimulator entwickelt wurde. Er wurde gebaut, um Standard-Second-Life(TM)-UV-Maps zu nutzen, basierend auf von Grund auf neu erstellten Open-Source-Mesh-Körpern von Shin Ingen und anderen Beiträgen aus der OpenSimulator-Community.
 
-* Github Repository: https://github.com/RuthAndRoth/Ruth2
-* Discord Discussion Forum: https://discordapp.com/channels/619919380154810380/619919380691550240
-* Discord Discussion Forum Invitation (open to all): https://discord.gg/UMyaZkc
-* MeWe Community Page: https://mewe.com/group/5bbe0189a5f4e57c73569fb9
-* Second Life Groups: "RuthAndRoth" and "Ruth and Roth Community"
-* OpenSim Group: OSGrid RuthAndRoth
+* Github-Repository: https://github.com/RuthAndRoth/Ruth2
+* Discord-Diskussionsforum: https://discordapp.com/channels/619919380154810380/619919380691550240
+* Einladung zum Discord-Diskussionsforum (offen für alle): https://discord.gg/UMyaZkc
+* MeWe-Community-Seite: https://mewe.com/group/5bbe0189a5f4e57c73569fb9
+* Second Life Gruppen: "RuthAndRoth" und "Ruth and Roth Community"
+* OpenSim Gruppe: OSGrid RuthAndRoth
 * OpenSim Region: OSGrid RuthAndRoth hop://login.osgrid.org/RuthAndRoth/128/128/26
 
-## Current Release
+## Aktuelle Version
 
-Ruth2 v4 the current release. The main Blender development kit is in the Mesh directory.
+Ruth2 v4 ist die aktuelle Version. Das Haupt-Blender-Entwicklungskit befindet sich im Mesh-Verzeichnis.
 
-## Previous Release
+## Vorherige Version
 
-Previous releases of Ruth2 may be found in the "archive-ruth-rc2" and "archive-ruth-rc3" branches of the old Ruth repo on Github (not this Ruth2 one) and in a number of places both in Second Life and OSGrid as listed above.
+Frühere Versionen von Ruth2 sind in den "archive-ruth-rc2" und "archive-ruth-rc3" Branches des alten Ruth-Repositorys auf Github (nicht dieses Ruth2-Repositorys) und an verschiedenen Orten in Second Life und OSGrid zu finden, wie oben aufgelistet.
 
 * https://github.com/RuthAndRoth/Ruth/tree/archive-ruth-rc2
 * https://github.com/RuthAndRoth/Ruth/tree/archive-ruth-rc3
 
-## Personal Directories
+## Persönliche Verzeichnisse
 
-We have moved all personal directories under the new top-level directory
-'Contrib'.  These continue to be used as they always have, as a place for
-team members to put things that are still under development before (or until)
-they are merged into the master release directories.
+Alle persönlichen Verzeichnisse haben wir unter das neue Top-Level-Verzeichnis 'Contrib' verschoben. Diese werden weiterhin genutzt wie bisher, als Ablage für Dinge, die von Teammitgliedern noch in der Entwicklung sind, bevor sie in die Hauptverzeichnisse der Veröffentlichung übernommen werden.
 
-Directories for contributors that have fallen inactive will be periodically removed
-from the current master (usually around release time) but will always be available
-in the archive release branches.
+Verzeichnisse von Beitragenden, die inaktiv geworden sind, werden regelmäßig aus dem aktuellen Hauptverzeichnis entfernt (meistens zur Veröffentlichungszeit), sind jedoch immer in den Archiv-Veröffentlichungszweigen verfügbar.
 https://github.com/RuthAndRoth/Ruth/tree/archive-ruth-rc3/Contrib
 
-## Upload Meshes and Artifacts
+## Hochladen von Meshes und Artefakten
 
-Since not everyone is set up to perform Blender exports to get the Collada files
-for uploading we maintain recent exported .dae files.  These correspond to the
-.blend files in the Mesh directory.
+Da nicht jeder eingerichtet ist, um Blender-Exporte zur Erstellung von Collada-Dateien für den Upload durchzuführen, pflegen wir kürzlich exportierte .dae-Dateien. Diese entsprechen den .blend-Dateien im Mesh-Verzeichnis.
 
-There is also an IAR file that can be uset to pre-load OpenSim grids.  These are
-usually updated at releases.  They will maintain consistent UUIDs for the
-assets to minimize duplication when uploading multiple releases for unchanged
-files.
+Es gibt auch eine IAR-Datei, die zum Vorladen auf OpenSim-Grids verwendet werden kann. Diese werden üblicherweise bei Veröffentlichungen aktualisiert. Sie behalten konsistente UUIDs für die Assets bei, um die Duplizierung bei mehreren Uploads von unveränderten Dateien zu minimieren.
 
-## Clothing Creator Guide
+## Kleidungsersteller-Anleitung
 
-Ruth2 v4 needs both the Blender mesh and a suitable avatar armature to allow for rigging and skinning in order to produce fitted mesh clothing. For assistance, see https://github.com/RuthAndRoth/Ruth2/wiki/Clothing-Creator-Guide
+Für Ruth2 v4 werden sowohl das Blender-Mesh als auch eine geeignete Avatar-Armatur benötigt, um das Rigging und Skinning für die Herstellung von passgenauer Mesh-Kleidung zu ermöglichen. Für Unterstützung siehe https://github.com/RuthAndRoth/Ruth2/wiki/Clothing-Creator-Guide
 
-## Licenses
+## Lizenzen
 
-Ruth2 is AGPL licensed, other contents of this repository are also
-AGPL licensed unless otherwise indicated.  See LICENSE.md for specific details.
+Ruth2 ist AGPL-lizenziert, ebenso wie die anderen Inhalte dieses Repositories, sofern nicht anders angegeben. Details finden sich in LICENSE.md.
 
-## Reference Files
+## Referenzdateien
 
-The original Ruth repo contained a number of reference files archived from
-various places around the Internet.  Some of those have become hard to find
-due to link rot and sites vanishing.
+Das originale Ruth-Repository enthielt eine Reihe von Referenzdateien, die aus verschiedenen Quellen im Internet archiviert wurden. Einige davon sind schwer zu finden geworden aufgrund von Link-Rot und dem Verschwinden von Websites.
 
-Those archived files are now in their own repo https://github.com/RuthAndRoth/Reference.
+Diese archivierten Dateien befinden sich nun in ihrem eigenen Repository https://github.com/RuthAndRoth/Reference.
